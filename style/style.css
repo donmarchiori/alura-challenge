@@ -241,14 +241,15 @@ body {
 
 .rodape {
     text-align: center;
-    background-color:var(--cor--rodape);
-    padding: 0.4rem;
+    background-color:var(--cor--primaria);
+    padding: 5.4rem;
     font-size: 1rem;
     font-weight: 400;
     font-family: var(--fonte--secundaria);
-    -webkit-text-fill-color: var(--cor--texto);
+    
     
 }
+
 
 
 
