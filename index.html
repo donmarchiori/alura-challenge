@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Challenges Decoder</title>
+</head>
+<body>
+    <head></head>
+    <main class="main_structure">
+        <section class="estrutura__secundaria">
+            <section  class="estrutura__secundaria__1__sub" >
+            <section class="div_logo_textarea">
+                <img class="img_logo" src="img/Logo.svg" alt="">
+                <textarea placeholder="Type your text" class="estrutura__secundaria__1__textarea" id="textarea_conteudo"></textarea>
+            </section>
+
+            <div class="estrutura__secundaria__1__div__pb">
+                <div class="alerta">
+                    <img class="alerta__img" src="img/exclamation.svg"  alt="">
+                    <p class="alerta__paragrafo">Just lowercase letters without accents.</p>
+                </div>
+                <div class="estrutura__secundaria__1__div__btn">
+                    <button class="estrutura__secundaria__1__btn" onclick="criotografarTexto()">Encrypt</button>
+                    <button class="estrutura__secundaria__1__btn__dec" onclick="descriotografarTexto()">Decrypt</button>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section class="estrutura__secundaria__2">
+            <div class="estrutura__secundaria__2__div">
+                <div class="mostrar_imagem-ilustracao" id="img_ilustracao">
+                    <img class="imagem_ilustracao" src="img/lets_encrypt.svg" alt="imagem" id="imagem_i">
+                    <h2 class="estrutura__secundaria__2__h2"></h2>
+                    <p class="estrutura__secundaria__div__2__paragrafo">Enter a text you want to encrypt or decrypt.</p>
+                </div>
+                <div class="estrutura__secundaria__div__2__div_oculta" id="ocultar__elementos" style="display: none;">
+                    <p class="estrutura__secundaria__div__2__mostrar" id="mostrar"></p>
+                    <div class="btn_oculto">
+                        <button class="estrutura__secundaria__div__2__div_oculta__btn" onclick="copiarTexto()">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/cripto.js"></script>
+</body>
+</html> 
